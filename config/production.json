@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://phifertoo:Dolphins23@devconnector-jzcpo.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "4c0072ffd49f49f4f356",
+  "githubSecret": "6fcf714129823a99515cec9d8e66a1e91fbaffd2"
+}
