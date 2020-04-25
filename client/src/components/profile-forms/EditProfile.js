@@ -48,21 +48,7 @@ const EditProfile = ({
       youtube: loading || !profile.social ? "" : profile.social.youtube,
       instagram: loading || !profile.social ? "" : profile.social.instagram,
     });
-  }, [
-    getCurrentProfile,
-    company,
-    website,
-    location,
-    status,
-    skills,
-    githubusername,
-    bio,
-    twitter,
-    facebook,
-    linkedin,
-    youtube,
-    instagram,
-  ]);
+  }, [getCurrentProfile]);
 
   /* the properties of formData are destructured so that the values
   can be displayed in the jsx. */
