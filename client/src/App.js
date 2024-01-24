@@ -15,6 +15,8 @@ if (localStorage.token) {
   setAuthToken(localStorage.token);
 }
 
+console.log("update");
+
 function App() {
   /* by putting the [], useEffect will only run once when the component did mount.
     Otherwise, useEffect will continuously trigger*/
